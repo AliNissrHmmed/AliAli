@@ -1,0 +1,15 @@
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\bin\Debug\netstandard2.0\tabledate.deps.json
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\bin\Debug\netstandard2.0\tabledate.dll
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\obj\Debug\netstandard2.0\tabledate.AssemblyInfoInputs.cache
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\obj\Debug\netstandard2.0\tabledate.AssemblyInfo.cs
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\bin\Debug\netstandard2.0\ref\tabledate.dll
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\bin\Debug\netstandard2.0\tabledate.pdb
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\obj\Debug\netstandard2.0\tabledate.csproj.CoreCompileInputs.cache
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\obj\Debug\netstandard2.0\tabledate.dll
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\obj\Debug\netstandard2.0\ref\tabledate.dll
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\obj\Debug\netstandard2.0\tabledate.pdb
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\obj\Debug\netstandard2.0\tabledate.csprojAssemblyReference.cache
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\obj\Debug\netstandard2.0\View\PageV.xaml.g.cs
+C:\Users\1292020ali\source\repos\tabledate\tabledate\tabledate\obj\Debug\netstandard2.0\View\Page2VV.xaml.g.cs

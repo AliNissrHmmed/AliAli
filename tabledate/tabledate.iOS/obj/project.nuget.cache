@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "G2pCH1NsT8GvKU453FuXFoxBQt5xS86Tx8BPzMEBY+NMQmrXRWd5G+CVqJg1MaD8xyctfsgt96OVf7V8zIdQMA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\1292020ali\\source\\repos\\tabledate\\tabledate\\tabledate.iOS\\tabledate.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\1292020ali\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\1292020ali\\.nuget\\packages\\sqlite-net-sqlcipher\\1.7.335\\sqlite-net-sqlcipher.1.7.335.nupkg.sha512",
+    "C:\\Users\\1292020ali\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlcipher\\2.0.3\\sqlitepclraw.bundle_e_sqlcipher.2.0.3.nupkg.sha512",
+    "C:\\Users\\1292020ali\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\1292020ali\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\1292020ali\\.nuget\\packages\\sqlitepclraw.lib.e_sqlcipher.ios\\2.0.3\\sqlitepclraw.lib.e_sqlcipher.ios.2.0.3.nupkg.sha512",
+    "C:\\Users\\1292020ali\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\1292020ali\\.nuget\\packages\\sqlitepclraw.provider.internal\\2.0.3\\sqlitepclraw.provider.internal.2.0.3.nupkg.sha512",
+    "C:\\Users\\1292020ali\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\1292020ali\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\1292020ali\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+  ],
+  "logs": []
+}
