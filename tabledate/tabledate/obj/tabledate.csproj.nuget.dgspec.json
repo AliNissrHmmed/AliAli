@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\1292020ali\\source\\repos\\tabledate\\tabledate\\tabledate\\tabledate.csproj": {}
+    "E:\\AliAli\\tabledate\\tabledate\\tabledate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\1292020ali\\source\\repos\\tabledate\\tabledate\\tabledate\\tabledate.csproj": {
+    "E:\\AliAli\\tabledate\\tabledate\\tabledate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\1292020ali\\source\\repos\\tabledate\\tabledate\\tabledate\\tabledate.csproj",
+        "projectUniqueName": "E:\\AliAli\\tabledate\\tabledate\\tabledate.csproj",
         "projectName": "tabledate",
-        "projectPath": "C:\\Users\\1292020ali\\source\\repos\\tabledate\\tabledate\\tabledate\\tabledate.csproj",
-        "packagesPath": "C:\\Users\\1292020ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\1292020ali\\source\\repos\\tabledate\\tabledate\\tabledate\\obj\\",
+        "projectPath": "E:\\AliAli\\tabledate\\tabledate\\tabledate.csproj",
+        "packagesPath": "C:\\Users\\AG\\.nuget\\packages\\",
+        "outputPath": "E:\\AliAli\\tabledate\\tabledate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\1292020ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AG\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -42,6 +43,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.1.0.466, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -71,7 +76,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

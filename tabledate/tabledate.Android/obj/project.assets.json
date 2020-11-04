@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
+      "Acr.UserDialogs/7.1.0.466": {
+        "type": "package",
+        "dependencies": {
+          "AndHUD": "1.4.2",
+          "Xamarin.Android.Support.Design": "28.0.0.3"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid90/Acr.UserDialogs.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid90/Acr.UserDialogs.dll": {}
+        }
+      },
+      "AndHUD/1.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid81/AndHUD.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid81/AndHUD.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.7.335": {
         "type": "package",
         "dependencies": {
@@ -931,6 +956,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Acr.UserDialogs": "7.1.0.466",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141",
           "sqlite-net-sqlcipher": "1.7.335"
@@ -945,6 +971,53 @@
     }
   },
   "libraries": {
+    "Acr.UserDialogs/7.1.0.466": {
+      "sha512": "vZdR+M0cvrNNQUNDKSmCtY4jg3JTDJ6VxpE3+id+DePwKtwGVGTWYkvOxFywZAbkqqRMSMhc904zz66XE95gNQ==",
+      "type": "package",
+      "path": "acr.userdialogs/7.1.0.466",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "acr.userdialogs.7.1.0.466.nupkg.sha512",
+        "acr.userdialogs.nuspec",
+        "lib/monoandroid10.0/Acr.UserDialogs.dll",
+        "lib/monoandroid10.0/Acr.UserDialogs.pdb",
+        "lib/monoandroid10.0/Acr.UserDialogs.xml",
+        "lib/monoandroid90/Acr.UserDialogs.dll",
+        "lib/monoandroid90/Acr.UserDialogs.pdb",
+        "lib/monoandroid90/Acr.UserDialogs.xml",
+        "lib/netstandard2.0/Acr.UserDialogs.dll",
+        "lib/netstandard2.0/Acr.UserDialogs.pdb",
+        "lib/netstandard2.0/Acr.UserDialogs.xml",
+        "lib/uap10.0.16299/Acr.UserDialogs.dll",
+        "lib/uap10.0.16299/Acr.UserDialogs.pdb",
+        "lib/uap10.0.16299/Acr.UserDialogs.pri",
+        "lib/uap10.0.16299/Acr.UserDialogs.xml",
+        "lib/uap10.0.16299/Acr.UserDialogs/Acr.UserDialogs.xr.xml",
+        "lib/xamarinios10/Acr.UserDialogs.dll",
+        "lib/xamarinios10/Acr.UserDialogs.pdb",
+        "lib/xamarinios10/Acr.UserDialogs.xml",
+        "lib/xamarinmac20/Acr.UserDialogs.dll",
+        "lib/xamarinmac20/Acr.UserDialogs.pdb",
+        "lib/xamarinmac20/Acr.UserDialogs.xml",
+        "lib/xamarintvos10/Acr.UserDialogs.dll",
+        "lib/xamarintvos10/Acr.UserDialogs.pdb",
+        "lib/xamarintvos10/Acr.UserDialogs.xml",
+        "readme.txt"
+      ]
+    },
+    "AndHUD/1.4.2": {
+      "sha512": "talAByCb4/g2hXaFXuWFqb/bxvpUecX3V04WO1D3l11ghR0R2eNMi1GhP4u+36tOgKk738+78UxyugQNyPP7Vw==",
+      "type": "package",
+      "path": "andhud/1.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "andhud.1.4.2.nupkg.sha512",
+        "andhud.nuspec",
+        "lib/MonoAndroid81/AndHUD.dll"
+      ]
+    },
     "sqlite-net-pcl/1.7.335": {
       "sha512": "0A9YNPbp66aB+Sitxmh9lq1KDtD4+EBPfdtnYN8WenvQqh5dNgMxUV7kaEG6EXYTi4zBxcsDKpyYJzbViWJXtw==",
       "type": "package",
@@ -2272,24 +2345,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1292020ali\\.nuget\\packages\\": {},
+    "C:\\Users\\AG\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1292020ali\\source\\repos\\tabledate\\tabledate\\tabledate.Android\\tabledate.Android.csproj",
+      "projectUniqueName": "E:\\AliAli\\tabledate\\tabledate.Android\\tabledate.Android.csproj",
       "projectName": "tabledate.Android",
-      "projectPath": "C:\\Users\\1292020ali\\source\\repos\\tabledate\\tabledate\\tabledate.Android\\tabledate.Android.csproj",
-      "packagesPath": "C:\\Users\\1292020ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1292020ali\\source\\repos\\tabledate\\tabledate\\tabledate.Android\\obj\\",
+      "projectPath": "E:\\AliAli\\tabledate\\tabledate.Android\\tabledate.Android.csproj",
+      "packagesPath": "C:\\Users\\AG\\.nuget\\packages\\",
+      "outputPath": "E:\\AliAli\\tabledate\\tabledate.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\1292020ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2303,8 +2376,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\1292020ali\\source\\repos\\tabledate\\tabledate\\tabledate\\tabledate.csproj": {
-              "projectPath": "C:\\Users\\1292020ali\\source\\repos\\tabledate\\tabledate\\tabledate\\tabledate.csproj"
+            "E:\\AliAli\\tabledate\\tabledate\\tabledate.csproj": {
+              "projectPath": "E:\\AliAli\\tabledate\\tabledate\\tabledate.csproj"
             }
           }
         }
