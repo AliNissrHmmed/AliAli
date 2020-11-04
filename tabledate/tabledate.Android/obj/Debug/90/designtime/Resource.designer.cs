@@ -25,6 +25,7 @@ namespace tabledate.Droid
 		
 		public static void UpdateIdValues()
 		{
+<<<<<<< Updated upstream
 			global::Acr.UserDialogs.Resource.Animation.abc_fade_in = global::tabledate.Droid.Resource.Animation.abc_fade_in;
 			global::Acr.UserDialogs.Resource.Animation.abc_fade_out = global::tabledate.Droid.Resource.Animation.abc_fade_out;
 			global::Acr.UserDialogs.Resource.Animation.abc_grow_fade_in_from_bottom = global::tabledate.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -7930,131 +7931,75 @@ namespace tabledate.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingEnd = global::tabledate.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingStart = global::tabledate.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_theme = global::tabledate.Droid.Resource.Styleable.View_theme;
-		}
-		
-		public partial class Animation
-		{
-			
-			// aapt resource value: 0x7F010004
-			public const int abc_fade_in = 2130771972;
-			
-			// aapt resource value: 0x7F010005
-			public const int abc_fade_out = 2130771973;
-			
-			// aapt resource value: 0x7F010006
-			public const int abc_grow_fade_in_from_bottom = 2130771974;
-			
-			// aapt resource value: 0x7F010007
-			public const int abc_popup_enter = 2130771975;
-			
-			// aapt resource value: 0x7F010008
-			public const int abc_popup_exit = 2130771976;
-			
-			// aapt resource value: 0x7F010009
-			public const int abc_shrink_fade_out_from_bottom = 2130771977;
-			
-			// aapt resource value: 0x7F01000A
-			public const int abc_slide_in_bottom = 2130771978;
-			
-			// aapt resource value: 0x7F01000B
-			public const int abc_slide_in_top = 2130771979;
-			
-			// aapt resource value: 0x7F01000C
-			public const int abc_slide_out_bottom = 2130771980;
-			
-			// aapt resource value: 0x7F01000D
-			public const int abc_slide_out_top = 2130771981;
-			
-			// aapt resource value: 0x7F01000E
-			public const int abc_tooltip_enter = 2130771982;
-			
-			// aapt resource value: 0x7F01000F
-			public const int abc_tooltip_exit = 2130771983;
-			
-			// aapt resource value: 0x7F010010
-			public const int design_bottom_sheet_slide_in = 2130771984;
-			
-			// aapt resource value: 0x7F010011
-			public const int design_bottom_sheet_slide_out = 2130771985;
-			
-			// aapt resource value: 0x7F010012
-			public const int design_snackbar_in = 2130771986;
-			
-			// aapt resource value: 0x7F010013
-			public const int design_snackbar_out = 2130771987;
-			
-			// aapt resource value: 0x7F010000
-			public const int EnterFromLeft = 2130771968;
-			
-			// aapt resource value: 0x7F010001
-			public const int EnterFromRight = 2130771969;
-			
-			// aapt resource value: 0x7F010002
-			public const int ExitToLeft = 2130771970;
-			
-			// aapt resource value: 0x7F010003
-			public const int ExitToRight = 2130771971;
-			
-			static Animation()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Animation()
-			{
-			}
-		}
-		
-		public partial class Animator
-		{
-			
-			// aapt resource value: 0x7F020000
-			public const int design_appbar_state_list_animator = 2130837504;
-			
-			// aapt resource value: 0x7F020001
-			public const int design_fab_hide_motion_spec = 2130837505;
-			
-			// aapt resource value: 0x7F020002
-			public const int design_fab_show_motion_spec = 2130837506;
-			
-			// aapt resource value: 0x7F020003
-			public const int mtrl_btn_state_list_anim = 2130837507;
-			
-			// aapt resource value: 0x7F020004
-			public const int mtrl_btn_unelevated_state_list_anim = 2130837508;
-			
-			// aapt resource value: 0x7F020005
-			public const int mtrl_chip_state_list_anim = 2130837509;
-			
-			// aapt resource value: 0x7F020006
-			public const int mtrl_fab_hide_motion_spec = 2130837510;
-			
-			// aapt resource value: 0x7F020007
-			public const int mtrl_fab_show_motion_spec = 2130837511;
-			
-			// aapt resource value: 0x7F020008
-			public const int mtrl_fab_transformation_sheet_collapse_spec = 2130837512;
-			
-			// aapt resource value: 0x7F020009
-			public const int mtrl_fab_transformation_sheet_expand_spec = 2130837513;
-			
-			static Animator()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Animator()
-			{
-			}
+=======
+>>>>>>> Stashed changes
 		}
 		
 		public partial class Attribute
 		{
 			
+			static Attribute()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Attribute()
+			{
+			}
+		}
+		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7F010000
+			public const int colorAccent = 2130771968;
+			
+			// aapt resource value: 0x7F010001
+			public const int colorPrimary = 2130771969;
+			
+			// aapt resource value: 0x7F010002
+			public const int colorPrimaryDark = 2130771970;
+			
+			// aapt resource value: 0x7F010003
+			public const int launcher_background = 2130771971;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7F020000
+			public const int sliding_tabs = 2130837504;
+			
+			// aapt resource value: 0x7F020001
+			public const int toolbar = 2130837505;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
 			// aapt resource value: 0x7F030000
-			public const int actionBarDivider = 2130903040;
+			public const int Tabbar = 2130903040;
 			
 			// aapt resource value: 0x7F030001
+<<<<<<< Updated upstream
 			public const int actionBarItemBackground = 2130903041;
 			
 			// aapt resource value: 0x7F030002
@@ -16743,6 +16688,54 @@ namespace tabledate.Droid
 			}
 			
 			private Xml()
+=======
+			public const int Toolbar = 2130903041;
+			
+			static Layout()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Layout()
+			{
+			}
+		}
+		
+		public partial class Mipmap
+		{
+			
+			// aapt resource value: 0x7F040000
+			public const int icon = 2130968576;
+			
+			// aapt resource value: 0x7F040001
+			public const int icon_round = 2130968577;
+			
+			// aapt resource value: 0x7F040002
+			public const int launcher_foreground = 2130968578;
+			
+			static Mipmap()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Mipmap()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7F050000
+			public const int MainTheme = 2131034112;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+>>>>>>> Stashed changes
 			{
 			}
 		}
