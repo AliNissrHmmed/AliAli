@@ -1,5 +1,5 @@
 ﻿using System;
-using tabledate.View;
+using tabledate.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +11,7 @@ namespace tabledate
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new  PageV());
+            MainPage = new NavigationPage(new  HomeView());
         }
 
         protected override void OnStart()

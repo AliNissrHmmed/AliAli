@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <Compile Remove="AssemblyInfo.cs" />
-    <Compile Remove="MainPage.xaml.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,12 +20,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Modal\namename.db" />
+    <None Remove="Models\namename.db" />
     <None Remove="TableDatebase.db" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="MainPage.xaml.cs" />
     <EmbeddedResource Include="TableDatebase.db" />
   </ItemGroup>
 
@@ -35,6 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs" Version="7.1.0.466" />
     <PackageReference Include="sqlite-net-sqlcipher" Version="1.7.335" />
     <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
@@ -45,10 +44,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="View\Page2VV.xaml">
+    <EmbeddedResource Update="Views\DateusingView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="View\PageV.xaml">
+    <EmbeddedResource Update="Views\HomeView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

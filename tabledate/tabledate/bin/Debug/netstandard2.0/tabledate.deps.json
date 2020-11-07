@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "tabledate/1.0.0": {
         "dependencies": {
+          "Acr.UserDialogs": "7.1.0.466",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141",
@@ -16,6 +17,14 @@
         },
         "runtime": {
           "tabledate.dll": {}
+        }
+      },
+      "Acr.UserDialogs/7.1.0.466": {
+        "runtime": {
+          "lib/netstandard2.0/Acr.UserDialogs.dll": {
+            "assemblyVersion": "7.1.0.466",
+            "fileVersion": "7.1.0.466"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -142,6 +151,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Acr.UserDialogs/7.1.0.466": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vZdR+M0cvrNNQUNDKSmCtY4jg3JTDJ6VxpE3+id+DePwKtwGVGTWYkvOxFywZAbkqqRMSMhc904zz66XE95gNQ==",
+      "path": "acr.userdialogs/7.1.0.466",
+      "hashPath": "acr.userdialogs.7.1.0.466.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
